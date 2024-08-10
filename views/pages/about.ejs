@@ -1,17 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    
-    <p><a href="./home">Home</a></p>
-    <p><a href="./about">about</a></p>
-    <p><a href="./contact">contact</a></p>
 
-    <h1>About Page</h1>
-    
+<body>
+  <!-- Start Header -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="./image/logo.png" alt="logo" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full">
+        <span class="ml-3 text-xl">Test.AI</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="./home" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="./about" class="mr-5 hover:text-gray-900">About Me</a>
+        <a href="./contact" class="mr-5 hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .about-section {
+        background-color: #ffffff;
+        padding: 20px;
+        max-width: 800px;
+        margin: 40px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section h1 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .about-section p {
+        font-size: 1.1em;
+        color: #666;
+        line-height: 1.6;
+    }
+</style>
+<section class="about-section">
+    <h1>About Saylani Mass IT Training</h1>
+    <p>
+        Welcome to SMIT's course hub! At SMIT, we are committed to empowering learners with cutting-edge knowledge in technology and development.
+        Our courses are designed to be practical, engaging, and industry-relevant, ensuring you gain the skills needed to thrive in today's tech-driven world.
+        Whether you're a beginner or an experienced developer, our tailored programs will guide you on your learning journey, from foundational concepts
+        to advanced AI integrations. Join us and transform your passion into expertise.
+    </p>
+</section>
+  <!-- Start Gallery -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
+        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+
 </body>
+
 </html>
